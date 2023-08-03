@@ -106,6 +106,21 @@ Orm; geliştirilen yazılım içerisinde oop yapısına uygun olmayan katı ve k
 
 <img src="../img/orm-karsilastirma.png">
 
+<br>
+
+## Neden Orm Kullanmalıyız?
+<p>
+Koda gömülü sorgular, veri tabanı değiştiğinde inanılmaz derecede maliyet getirir.
+</p>
+<p>
+Eğer ki orm kullanırsak veri tabanından bağımsız veri tabanı işlemleri yapabiliriz. Bundan dolayı orm kullanmalıyız.
+</p>
+<p>
+Orm; ileriye dönük, dönüştürülebilir, veri tabanı değişikliğine açık, bu değişikliği karşılayabilecek bir proje oluşturmamızı sağlar.
+</p>
+<p>
+Yani yazılımı mümkün mertebe kullandığımız veri tabanından bağımsız bir şekilde inşa etmemiz gerekecektir. Bunun içinde orm yaklaşımını benimsememiz gerekecektir.
+</p>
 
 
 
