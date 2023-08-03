@@ -81,7 +81,7 @@ Yani uzun lafın kısası kodun içerisinde sql cümleleri yazmanın ve veri tab
 * <p>Gün gelir veri tabanını değiştirmemiz gerekebilir. İşte böyle bir durumda tüm sql kodlarını yeni veri tabanına göre refactoring etmemiz gerekecektir.</p>
 <br>
 
-## Peki bu dezavantajlı durumdan nasıl nasıl kurtulabiliriz?
+## Peki bu dezavantajlı durumdan nasıl kurtulabiliriz?
 <p>Orm ile kurtulabiliriz. Peki Orm nedir?</p>
 <p>Orm; yazılım ve veri tabanı arasındaki bağlantı üzerinden sorgular eşliğinde veri transferini oop nimetlerinden istifade ederek sağlayabileceği ve böylece kodun da, geliştiricinin de sql'e bağımlılığı olmaksızın hızlı ve kolayca operasyonları gerçekleştirebileceği bir yaklaşımdır.</p>
 <p>Orm, Object Relational Mapping yani Nesne İlişkisel Eşleme şeklinde bir açılıma sahiptir.</p>
