@@ -23,7 +23,9 @@ Eğer sorgulama yaparken metotları kullanarak sorgulama yapıyorsak o zaman bun
 Eğer aşağıdaki gibi bir gramer ile sorgulama yapıyorsak o zaman da query syntax'ı kullanmış oluruz.
 </p>
 <img src="../img/query syntax.png">
-
+<p>
+Bu LINQ sorgusundaki urun parametresi o an işlem yapılan ürünü temsil eder. Sorgunun her bir adımında, urun parametresi değişir ve sıradaki ürünü temsil eder.
+</p>
 <br>
 
 ## Sorguyu Execute Etmek İçin Ne Yapmamız Gerekmektedir?
