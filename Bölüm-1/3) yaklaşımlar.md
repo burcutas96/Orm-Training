@@ -9,6 +9,9 @@ Bu yaklaşımlar; Database First ve Code First olmak üzere iki tanedir.
 
 ## Yaklaşım Ne Demek?
 <p>
+Yaklaşım; dilden, platformdan, framework'ten her şeyden bağımsızdır. Bu bir stratejidir. Bu bir mantıktır. Sen orm yaklaşımını istediğin herhangi bir dilde, istediğin herhangi bir platformda uygulayabilirsin. Yani javada da, phpde de, pythonda da uygulayabilirsin. 
+</p>
+<p>
 Yaklaşım bir konuyu, olguyu, yapıyı, inşayı, sorunu, çözümü ele alış bir başka deyişle ona bütünsel olarak bakış biçimidir.
 </p>
 <p>
