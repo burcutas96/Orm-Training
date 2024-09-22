@@ -1,4 +1,4 @@
-## One to One İlişkisinde Veri Ekleme
+# One to One İlişkisinde Veri Ekleme
 
 ### 1. Yöntem: Principal Entity Üzerinden Dependent Entity Verisi Ekleme
 
@@ -34,7 +34,7 @@ Eğer ki principal entity üzerinden veri ekleme gerçekleştiriliyorsa dependen
 
 <br>
 
-## One to Many İlişkisinde Veri Ekleme
+# One to Many İlişkisinde Veri Ekleme
 
 ### 1. Yöntem: Principal Entity Üzerinden Dependent Entity Verisi Ekleme
 
@@ -123,7 +123,7 @@ Post nesnemizi oluştururken foreign key olan BlogId property'sine 1 değerini v
 
 <br>
 
-## Many to Many İlişkisinde Veri Ekleme
+# Many to Many İlişkisinde Veri Ekleme
 
 ### 1. Yöntem:
 

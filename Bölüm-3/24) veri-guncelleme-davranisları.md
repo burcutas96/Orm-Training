@@ -1,4 +1,4 @@
-# One To One İlişkisinde Veri Güncelleme
+# One to One İlişkisinde Veri Güncelleme
 
 ### 1. Durum: Esas tablodaki veriye bağımlı veriyi güncelleme
 
@@ -35,7 +35,7 @@ Yine yukarıdaki mantıkta olduğu gibi biz Address tablosundaki 'Id' kolonunu d
 <br>
 <br>
 
-# One To Many İlişkisinde Veri Güncelleme
+# One to Many İlişkisinde Veri Güncelleme
 
 ### 1. Durum: Esas tablodaki veriye bağımlı veriyi güncelleme
 
@@ -91,7 +91,7 @@ Var olan bir Blog'u da atayabiliriz;
 
 <br>
 
-# Many To Many İlişkisinde Veri Güncelleme
+# Many to Many İlişkisinde Veri Güncelleme
 
 <p>
 Elimizde aşağıdaki gibi many to many ilişkisine sahip tablolarımız ve verileri olduğunu düşünelim.
