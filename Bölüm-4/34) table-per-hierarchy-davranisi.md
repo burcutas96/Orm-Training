@@ -5,10 +5,10 @@ Kalıtımsal ilişkiye sahip entity'lerin olduğu durumlarda her bir hiyerarşiy
 
 ## Table Per Hierarchy'e Neden İhtiyaç Duyarız?
 <p>
-İçerisinde benzer alanlara sahip olan entity'leri migrate ettiğimizde her entity'e karşılık bir tablo oluşturmaktansa bu entity'leri tek bir tabloda modellemek isteyebilir ve bu tablodaki kayıtları discriminator kolonu üzerinden birbirlerinden ayırabiliriz. İşte bu tarz bir tabloya göre ve bu tarz bir tabloya göre sorgulama, veri ekleme, silme vs. gibi operasyonların şekillendirilmesi için TPH davranışını kullanabiliriz. 
+İçerisinde benzer alanlara sahip olan entity'leri migrate ettiğimizde her entity'e karşılık bir tablo oluşturmaktansa bu entity'leri tek bir tabloda modellemek isteyebilir ve bu tablodaki kayıtları discriminator kolonu üzerinden birbirlerinden ayırabiliriz. İşte bu tarz bir tabloya göre sorgulama, veri ekleme, silme vs. gibi operasyonların şekillendirilmesi için TPH davranışını kullanabiliriz. 
 </p>
 
-<img src="../img/table-per-hierarchy.png" width="60%">
+<img src="../img/table-per-hierarchy.png" width="75%">
 
 <br>
 
