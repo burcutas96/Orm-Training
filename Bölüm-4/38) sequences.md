@@ -17,7 +17,25 @@ Yukarıdaki örnekte, sequence oluşturmayı ve bu sequence'i birden fazla entit
 </p>
 
 <p>
-Sequence'ler üzerinden değer oluştururken veri tabanına özgü çalışma yapılması zaruridir.
+Sequence'ler üzerinden değer oluştururken veri tabanına özgü çalışma yapılması zaruridir. Yani örneğin MsSql veri tabanı sunucusuyla çalışıyorsak bu dilin syntax'ına özel bir tanım yapılmalıdır.
+</p>
+
+<br>
+
+<img src="../img/sequences-2.png" width="75%">
+
+<br>
+
+<p>
+Yukarıdaki çalışmada Employees ve Customers tablolarında aynı sequence kullanıldığı için, her iki tablonun id değerine benzersiz bir değer atanır. Yani, örneğin Employees tablosuna yeni bir kayıt eklediğinizde sequence bir sonraki değere geçer, bu Customers tablosunu da etkiler. Tıpkı aşağıda olduğu gibi...  
+</p>
+
+<img src="../img/sequences-3.png" width="50%">
+
+<br>
+
+<p>
+Sonuç olarak, sequence değerleri iki tablo arasında paylaşılır ve her iki tabloda da benzersiz, sıralı bir değer sağlanır.
 </p>
 
 <br>
@@ -44,7 +62,7 @@ Sequence veri tabanında bir nesne olduğu için herhangi bir tabloya bağımlı
 </p>
 
 <p>
-Identity yapılanmasından farkı da şudur ki; identity bir sonraki değeri disk'ten alırken sequence ise RAM'den alır. Bu yüzden önemli ölçüde identity'e nazaran daha hızlı, performanslı ve az maliyetlidir.  
+Identity yapılanmasından farkı da şudur ki; identity bir sonraki değeri disk'ten alırken sequence RAM'den alır. Bu yüzden önemli ölçüde identity'e nazaran daha hızlı, performanslı ve az maliyetlidir.  
 </p>
 
 
